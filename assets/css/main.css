@@ -205,6 +205,8 @@ input, select, textarea {
 				font-size: 11pt;
 			}
 
+			
+
 		}
 
 	a {
@@ -1341,6 +1343,8 @@ input, select, textarea {
 				background-size: 4em;
 			}
 
+			
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2038,6 +2042,21 @@ input, select, textarea {
 
 		}
 
+#aboutMePortrait{
+	width: 80vw;
+	max-height: 25vh;
+	object-fit: cover;
+
+	
+}
+@media screen and (min-width:980px){
+	#aboutMePortrait{
+		width: 30vw;
+		height: 25vh;
+		object-fit: cover;
+
+	}
+}
 /* Footer */
 
 	#footer .copyright {
