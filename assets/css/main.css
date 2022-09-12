@@ -2051,7 +2051,7 @@ input, select, textarea {
 #aboutMePortrait{
 	width: 80vw;
 	max-height: 25vh;
-	object-fit: cover;
+	object-fit: contain;
 
 	
 }
