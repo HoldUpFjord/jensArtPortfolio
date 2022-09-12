@@ -1647,6 +1647,12 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 			}
+			.image.imagePortrait{
+				
+				background-size: contain !important; 
+				background-color: #f0f8ff  !important;
+				
+			}
 
 			#main .thumb > h2 {
 				pointer-events: none;
