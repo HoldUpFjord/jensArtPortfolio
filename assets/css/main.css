@@ -1592,16 +1592,18 @@ input, select, textarea {
 			}
 
 	}
-	/*@media screen and (max-width: 480px) {
+	@media screen and (max-width: 480px) {
 
 		#header {
 			font-size: smaller;
 		}
-		@media screen and (max-width: 360px) {
+	}
+	@media screen and (max-width: 360px) {
 
-			#header {
-				font-size: x-small;
-			} */
+		#header {
+			font-size: xx-small;
+		} 
+	}
 
 /* Main */
 
