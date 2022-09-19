@@ -235,11 +235,13 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		color:#0b0707;
+		
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
-		font-weight: 300;
+		color: #0b0707;
+		font-weight: bolder;
 		letter-spacing: 0.1em;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -1289,7 +1291,8 @@ input, select, textarea {
 			}
 
 			.poptrox-popup .caption p {
-				color: #ffffff;
+				color: #0e0b0b;
+				font-weight: bolder;
 			}
 
 		.poptrox-popup .loader {
@@ -1678,10 +1681,14 @@ input, select, textarea {
 				margin: 0;
 				position: absolute;
 				z-index: 1;
+				color: black;
+				font-weight: bolder;
 			}
 
 			#main .thumb > p {
 				display: none;
+				color:black;
+				font-weight: bolder;
 			}
 
 		#main:after {
@@ -2080,6 +2087,9 @@ input, select, textarea {
 	}
 }
 /* Footer */
+.footerText {
+	color:white;
+}
 
 	#footer .copyright {
 		color: #505051;
